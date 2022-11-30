@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: lxy3.1415926
+    url: jdbc:mysql://localhost:3306/predict_spring_assignment?useUnicode=true&characterEncoding=utf-8&connectTimeout=5000&socketTimeout=5000&useSSL=false&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
