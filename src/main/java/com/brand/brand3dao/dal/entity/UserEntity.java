@@ -41,7 +41,7 @@ public class UserEntity extends Model<UserEntity> {
     /**
      * 用户验证
      */
-    private String nonce;
+    private Long nonce;
 
 
     public static final String ID = "id";

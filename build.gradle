@@ -28,6 +28,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'com.github.kuhn-he:saas-datasource-spring-boot-starter:mybatis-plus-3.0.6.1'
     implementation 'org.web3j:codegen:5.0.0'
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
 }
 
 tasks.named('test') {
